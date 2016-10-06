@@ -58,7 +58,7 @@ public class EventManager : MonoBehaviour
         }
     }
 
-    public static void Dispatch(String eventID, object args)
+    public static void Dispatch(String eventID, object args = null)
     {
         EventDelegate del;
         if (instance.m_Events.TryGetValue(eventID, out del))
