@@ -1,0 +1,3 @@
+[submodule "Assets/Scripts/FSM"]
+	path = Assets/Scripts/FSM
+	url = https://github.com/SOnions/FSM.git
